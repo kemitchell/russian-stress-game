@@ -1,0 +1,46 @@
+html {
+  font-size: 300%;
+}
+
+body {
+  padding: 1rem;
+}
+
+label {
+  position: relative;
+}
+
+.word {
+  display: inline-block;
+  padding-left: 0.5ex;
+  padding-right: 0.5ex;
+  padding-top: 1ex;
+}
+
+.word:first-child {
+  padding-left: 0;
+}
+
+.word:last {
+  padding-right: 0;
+}
+
+input[type=radio] {
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: -1ex;
+}
+
+.right { background-color: rgba(0, 255, 0, 0.5); }
+.wrong { background-color: rgba(255, 0, 0, 0.5); }
+
+button {
+  font-size: 100%;
+  margin: 1rem 0;
+  padding: 1ex;
+}
+
+button:last-child {
+  margin-left: 1rem;
+}
